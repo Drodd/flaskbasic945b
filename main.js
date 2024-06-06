@@ -1,5 +1,4 @@
-    <script>
-        const startButton = document.getElementById('startButton');
+       const startButton = document.getElementById('startButton');
         const audioPlayer = document.getElementById('audioPlayer');
 
         startButton.addEventListener('click', async () => {
@@ -37,4 +36,3 @@
                 console.error('Error recording audio:', error);
             }
         });
-    </script>
